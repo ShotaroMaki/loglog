@@ -1,0 +1,141 @@
+
+label {
+    overflow-wrap: break-word;
+}
+.naiyou{
+    height        : 270px;
+    width         : 43%;
+    display       : inline-block; 
+    vertical-align: top;
+    border        : 1px solid black;
+    margin        : 2%;
+    text-align    : center;
+}
+.preview {
+    max-width     : 100%;
+    max-height    : 100%;
+}
+.img{
+    max-width     : 100%;
+    height        : 125px;
+    margin        : 1px;
+}
+body{
+    margin-left   : 3%;
+    margin-right  : 0%;
+    margin-top    : 0%;
+    width         : 97%;
+}
+.line2{
+    position      : relative;
+    border-top    : 1px dashed #3D3939;
+}
+
+.line2:before{
+    content       : "";
+    display       : block;
+    width         : 5px;
+    height        : 10px;
+    border-radius : 0 5px 5px 0;
+    border        : 1px solid black;
+    border-left   : 1px solid #ffffff;
+    background    : #ffffff;
+    position      : absolute;
+    top           : -6px;       
+}
+.line2:after{
+    content       : "";
+    display       : block;
+    width         : 5px;
+    height        : 10px;
+    border-radius : 5px 0 0 5px;
+    border        : 1px solid black;
+    border-right  : 1px solid #ffffff;
+    background    : #ffffff;
+    position      : absolute;
+    top           : -6px;
+}
+
+.line2:before{left:-1px;}
+.line2:after{right:-1px;}
+
+.search_container{
+    box-sizing    : border-box;
+    position      : relative;
+    border        : 1px solid #3D3939;
+    display       : block;
+    padding       : 3px 10px;
+    border-radius : 20px;
+    margin-top: 5px;
+    width: 97%;
+    overflow: hidden;
+}
+
+/*検索ボタンのデザイン*/
+.scroll_content { /* リスト全体のスタイル */
+    display       : flex;
+    max-width     : 80%;
+    margin        : auto;
+    overflow-x    : auto;
+    padding       : 10px
+}
+.search_shop{
+    width: 80%;
+    
+}
+.search_button{
+    height: 20px;
+    
+}
+
+.scroll_button{ /* 各リストのスタイル */
+    width         : 40%;
+    height        : 40px;
+    text-align    : center;
+    font-size     : 14px;
+    border-radius : 20px 20px 20px 20px;
+    background    : #ffffff;
+    color         : #3D3939;
+    border        : 1px solid #3D3939;
+    margin-top    : 5%;
+    margin        : 3px;
+    flex-shrink   : 0;
+
+}
+ 
+.scroll_content img { /* 画像のスタイル */
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+ 
+.scroll_content::-webkit-scrollbar {
+  height: 12px; /* スクロールバーの高さ */
+}
+ 
+.scroll_content::-webkit-scrollbar-thumb {
+  background: #aaa; /* ツマミの色 */
+  border-radius: 6px; /* ツマミ両端の丸み */
+}
+ 
+.scroll_content::-webkit-scrollbar-track {
+  background: #ddd; /* トラックの色 */
+  border-radius: 6px; /* トラック両端の丸み */
+}
+ 
+ 
+@media screen and (min-width: 450px) {
+ 
+  .scroll_content li {
+    width: 45%;
+  }
+ 
+}
+
+
+
+    @media only screen and (max-width: 350px) {
+        .shop_nm , .coupon_good , .effect_str , .coupon_disc, .effect_end{
+            font-size: 10px;
+        }
+    }

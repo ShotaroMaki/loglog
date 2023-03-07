@@ -1,0 +1,33 @@
+/*PC/タブレット*/
+
+.effect{
+    max-width  : 120px;
+}
+.coupon_goods{
+    text-align : center;
+    height     : 40px;
+    width      : 180px;
+    overflow   : hidden;
+    resize     : none !important;
+}
+.coupon_discount{
+    text-align : center;
+    height     : 40px;
+    width      : 220px;
+    overflow   : hidden;
+    resize     : none !important;
+}
+/*携帯対応*/
+@media screen and (max-width: 480px) {
+    .coupon_goods{
+        text-align : center;
+        height     : 40px;
+        max-width  : 50%;
+    }
+    .coupon_discount{
+        text-align : center;
+        height     : 40px;
+        width      : 50%;
+        resize     : none;
+    }
+}

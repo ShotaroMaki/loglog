@@ -1,0 +1,65 @@
+body{
+    margin          : 0;
+}
+
+table#msg_list_table {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+}
+
+table tr{
+  margin            : 10px;
+  border-bottom     : solid 2px whitesmoke;
+}
+
+table tr:last-child{
+  border-bottom     : none;
+}
+.table_td{
+  text-align        : left;
+  width             : 80%;
+  background-color  : #eee;
+  padding           : 10px 0;
+}
+    
+.table_td1{
+  text-align        : left;
+  width             : 100%;
+  background-color  : white;
+  padding           : 10px 0;
+  
+}
+
+a{
+    text-decoration :none;
+    color           :black 
+}
+
+/*携帯対応*/
+@media screen and (max-width: 480px) {
+    #div_img{
+        text-align      : center;
+        margin-left     : auto;
+        margin-right    : auto;
+        height          : 20%;
+    }
+    .div_img2{
+        justify-content: center;
+        margin-left     : auto;
+        margin-right    : auto;
+        height          : 20%;
+    }
+    .block{
+        text-align      : center;
+        font-size       : 12px;
+    }
+    .div_his {
+         margin-left    : auto;
+         margin-right   : auto;
+         justify-content: center;
+         margin-top     :15px;
+         width          :auto!important;
+         display        : block!important;
+    }
+}

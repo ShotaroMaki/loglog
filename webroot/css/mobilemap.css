@@ -1,0 +1,116 @@
+    body{
+        margin        : 0px;
+    }
+    #view_map{
+        height        : 100vh;
+        width         : 100vw;
+    }
+    #map{
+        height        : 100vh;
+        width         : 100vw;
+    }
+    .search_shop{
+        height        : 10%;
+        width         : 100%;
+        padding       : 0;
+        border        : 0;
+        background-color:white;
+        outline:none;
+    }
+
+    .rank_search {
+        margin       : 10px;
+        font-size    : 18px;
+    }
+
+
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+        background    : white;
+        border-color  : black;
+    }
+
+    .a.leaflet-popup-close-button {
+        color         : black !important;
+        font          : bold 14pt monospace;
+    }
+    .leaflet-popup-content{
+        margin        : 0px !important;
+        text-align   : center;
+        padding-left  : 5%;
+        padding-right : 5%;
+        -webkit-overflow-scrolling: touch;
+        overflow: auto;
+        height        : 100% !important;
+        width         : 90% !important;
+    }
+    .leaflet-popup-content-wrapper {
+        border-width  : 2px;
+        border-style  : solid;
+        height        : 70vh;
+        width         : 94vw;
+        margin        : 0px;
+    }
+
+    .leaflet-popup-tip-container {
+        margin-top    : -3px;
+        height        : 23px;
+    }
+
+    .leaflet-popup-tip {
+        border-style  : solid;
+        border-width  : 0 3px 3px 0;
+    }
+    .color_palette{
+        background-color : #3D3939;
+        color            : #3D3939;
+        border-color     : #3D3939;
+    }
+    .frame_size{
+        height        : 150%;
+        width         : 95%;
+        
+    }
+    
+    body{ margin-left: 0; }
+        #mapid { height: 400px; width: 600px}
+ 
+        .leaflet-menu {
+          background-color: #fafafa;
+    }
+    .cstm-slidmenu-header {
+        margin           : 0;
+        background-color : #e72923;
+        color            : #fff;
+        padding          : 5px;
+    }
+
+    .cstm-slidmenu-content {
+        padding          : 0;
+        margin           : 0;
+        
+      height: 30%;
+        
+        
+    }
+    .slidmenu-li , .search_shop ,search_add{
+      padding            : 5px 0;
+      font-size          : 18px;
+      
+    }
+
+    .cstm-slidmenu-content li {
+      list-style-type    : none;
+      font-size          : 18px;
+      padding            : 4px;
+      border-bottom      : 1px solid #ccc;
+    }
+
+    i {
+      padding-left       : 5px;
+    }
+
+    .fa-bars {
+        content          : url(../webroot/img/2760.jpg);
+        text-align       : center;
+        vertical-align   : middle;
+    }

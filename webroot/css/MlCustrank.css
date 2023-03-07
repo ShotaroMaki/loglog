@@ -1,0 +1,41 @@
+.caption {
+  color: #ffffff;
+  background: #e72923;
+  border-bottom:1px solid #ccc;
+}
+
+.topic {
+    height: 25px;
+    width: 100%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;    
+}
+.tables{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;    
+    background: #ffffff;
+    height:100%;
+    width:100%;
+}
+
+.div_his1{
+    width: 50%;
+    margin-left: 25%;
+    margin-right:25%;
+}
+.table_his{
+    width: 100%;
+}
+
+/*携帯対応*/
+@media screen and (max-width: 480px) {
+    .div_his1{
+        width: 100%;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+}

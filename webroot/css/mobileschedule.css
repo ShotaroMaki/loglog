@@ -1,0 +1,77 @@
+form{
+    height           : 100%;
+}
+li {
+    list-style-type  : none;
+}
+html{
+    height           : 100%;
+}
+body{
+    height          : 100%;
+    margin          : 0;
+    width           : 100%;
+}
+.s_header1{
+    text-align      : center;
+    color           : white;
+    font-size       : 20px;
+    padding-top     : 20px;
+}
+.s_header2{
+    text-align      : center;
+    color           : white;
+    font-size       : 15px; 
+}
+.schedule_size{
+    height           : 100%; 
+    background       : #336378;
+}
+.nikki_titlebox{
+    display          : inline-block;
+    width            : 100%;
+    height           : 10%;
+    padding          : 0.5em;
+    border           : 1px solid #999;
+    box-sizing       : border-box;
+    background       : #f2f2f2;
+    margin           : 2em 0;  
+}
+.nikki_textbox{
+    display          : inline-block;
+    width            : 100%;
+    height           : 30%;
+    padding          : 0.5em;
+    border           : 1px solid #999;
+    box-sizing       : border-box;
+    background       : #f2f2f2;
+    margin           : 2em 0;
+}
+
+
+.schedule_button{
+    text-align       : center;
+}
+
+
+/*選択されているタブのコンテンツのみを表示*/
+
+
+
+/*携帯対応*/
+@media screen and (max-width: 480px) {
+form{
+    height           : 100%;
+}
+
+html{
+    height           : 100%;
+}
+body{
+    height          : 100%;
+    margin          : 0;
+    width           : 100%;
+}   
+
+}
+

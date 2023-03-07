@@ -1,0 +1,19 @@
+/*PC/タブレット*/
+.msg_discount{
+    height : 200px;
+    width  : 600px;
+    resize : none;
+}
+.msg_text{
+     height: 30%;
+    width  : 50%;
+    resize : none;
+}
+/*携帯対応*/
+@media screen and (max-width: 480px) {
+    .msg_discount{
+        height:100px;
+        width:80%;
+        resize: none;
+    }
+}

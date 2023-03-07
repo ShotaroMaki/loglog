@@ -1,0 +1,22 @@
+.Conditions{
+    width: 100%;
+    text-align: center;
+}
+.select{
+    width: 80px;
+    text-align: center;
+}
+/*携帯対応*/
+@media screen and (max-width: 480px) {
+    .Conditions{
+        width: 100%;
+        text-align: center;
+    }
+    .select{
+        width: 80px;
+        text-align: center;
+    }
+    .dselect{
+        display:block!important;
+    }
+}
